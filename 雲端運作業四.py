@@ -29,11 +29,11 @@
 
    
 # # 承上題，請把['1$', '2$', '3$', '4$', '5$', '6$']，還原成[1,2,3,4,5,6]。
-# x =['1$', '2$', '3$', '4$', '5$', '6$']
-# z = []
-# for i in range(0,5):
-#     z.append(int(x[i].replace('$',' ')))
-#     print(z)
+# x =['1$','2$','3$','4$','5$','6$']
+# z = list = [ ]
+# for i in range(0,6):
+#     z.append(int(x[i].replace('$','')))
+# print(z)
 
 
    
@@ -42,7 +42,7 @@
 
 # list2 = [5,6,7,8]
 
-# print(list(zip(list1,list2)))
+# print(list(zip(list1,list2)))將鍵值分別+1
 
 # 1. 我們做個練習，用字典來建立文字次數的計算程式。字串s 的內容為：
 # s = "I love you and you love him and who loves who"
